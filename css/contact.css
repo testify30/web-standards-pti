@@ -1,6 +1,6 @@
 .contact {
     background: var(--green-primary);
-    color: var(--green-hover);
+    color: var(--green-accent);
 }
 
 .contact .container {
