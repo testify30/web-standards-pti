@@ -1,0 +1,31 @@
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    counter-reset: s;
+}
+
+.step {
+    flex: 1 1 220px;
+    text-align: center;
+}
+
+.step::before {
+    counter-increment: s;
+    content: counter(s);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 14px;
+    border-radius: 50%;
+    background: var(--green-primary);
+    color: var(--green-accent);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.step p {
+    color: var(--dim);
+}

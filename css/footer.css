@@ -1,0 +1,14 @@
+footer {
+    background: var(--bg-alt);
+    border-top: 1px solid var(--border);
+    padding: 28px 0;
+    font-size: .9rem;
+    color: var(--dim);
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px 24px;
+}

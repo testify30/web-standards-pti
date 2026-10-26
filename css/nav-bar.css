@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+}
+@media (max-width:600px) {
+    .nav {
+        gap: 6px 14px;
+    }
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: .95rem;
+    color: var(--nav-dim);
+}
+
+.nav a:hover {
+    color: var(--green-primary);
+}

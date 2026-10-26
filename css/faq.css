@@ -1,0 +1,22 @@
+.faq {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+details {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+details p {
+    margin: 12px 0 0;
+    color: var(--dim);
+}

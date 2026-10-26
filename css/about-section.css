@@ -1,0 +1,64 @@
+.about .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-photo {
+    flex: 1 1 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    width: 220px;
+    height: 220px;
+    border-radius: 24px;
+    background: #f4a95e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.about-text {
+    flex: 2 1 340px;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+}
+@media (max-width:600px) {
+    .about-text h2 {
+        font-size: 1.6rem;
+    }
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.num {
+    flex: 1 1 120px;
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+}
+
+.num strong {
+    display: block;
+    font-size: 1.8rem;
+    color: var(--green-primary);
+    font-family: Georgia, serif;
+}
+
+.num span {
+    font-size: .85rem;
+    color: var(--dim);
+}
